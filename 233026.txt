@@ -1,12 +1,10 @@
-Лабораториска вежба 1
-
 Прва домашна задача по Софтверско инженерство 2024/2025
 
 Дел 2: Софтверски развој со користење на Git систем за контрола на верзии
 
 Чекор 13
 git fetch origin
-Се креираат tracker гранки за 3-те гранки кои ги креиравте преку Github проектот
+Се креираат tracker гранки за 3-те гранки кои ги креирав преку Github проектот
 
 
 Чекор 14
@@ -27,7 +25,6 @@ git push origin 1-remove-a-task-by-name
 
 Чекор 18
 Креирав pull request на GitHub за спојување на гранката 1-remove-a-task-by-name во master.
-
 
 Чекор 19
 Ги повторив чекорите 14-18 за 3-list-tasks-sorted-by-name и 8-mark-a-task-as-completed-by-name.
@@ -50,7 +47,6 @@ git merge 8-mark-a-task-as-completed-by-name
 
 Беше употребена fast-forward стратегија на спојување
 
-
 Чекор 23
 git pull origin master
 git push origin master
@@ -58,7 +54,3 @@ git push origin master
 
 Чекор 24
 Трите гранки се во фазата Done
-
-
-Чекор 25
-Чекор 26
