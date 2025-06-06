@@ -1,0 +1,64 @@
+Лабораториска вежба 1
+
+Прва домашна задача по Софтверско инженерство 2024/2025
+
+Дел 2: Софтверски развој со користење на Git систем за контрола на верзии
+
+Чекор 13
+git fetch origin
+Се креираат tracker гранки за 3-те гранки кои ги креиравте преку Github проектот
+
+
+Чекор 14
+git checkout 1-remove-a-task-by-name
+Се префрлив на гранката 1-remove-a-task-by-name каде што ќе ја имплементирам функцијата поврзана со првиот issue.
+
+Чекор 15
+Ја имплементирав во Java функцијата која го решава проблемот.
+
+Чекор 16
+git add .
+git commit -m "Implement remove task by name"
+Додадов и направив commit на промените во локалниот репозиториум.
+
+Чекор 17
+git push origin 1-remove-a-task-by-name
+Ја синхронизирав локалната гранката со гранката на оддалечениот репозиториум
+
+Чекор 18
+Креирав pull request на GitHub за спојување на гранката 1-remove-a-task-by-name во master.
+
+
+Чекор 19
+Ги повторив чекорите 14-18 за 3-list-tasks-sorted-by-name и 8-mark-a-task-as-completed-by-name.
+
+Чекор 20
+Одобрив и споив два од трите pull request-а преку GitHub.
+
+При спојувањето на првите два pull request-а преку копчето Merge pull request на GitHub не се појавија конфликти. 
+
+Стратегијата што ја користеше GitHub беше fast-forward merge.
+
+Чекор 21
+Двете гранки автоматски се префрлија во фазата Done
+
+Чекор 22
+git checkout master
+git merge 8-mark-a-task-as-completed-by-name
+
+При извршување на командата git merge 8-mark-a-task-as-completed-by-name во локалниот репозиториум не се појавија конфликти.
+
+Беше употребена fast-forward стратегија на спојување
+
+
+Чекор 23
+git pull origin master
+git push origin master
+Го синхронизирав локалниот master со оддалечениот репозиториум (GitHub).
+
+Чекор 24
+Трите гранки се во фазата Done
+
+
+Чекор 25
+Чекор 26

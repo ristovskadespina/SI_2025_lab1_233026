@@ -1,0 +1,15 @@
+*   180763b Merge branch 'master' of https://github.com/ristovskadespina/SI_2025_lab1_233026
+|\  
+| *   50fbd11 Merge pull request #11 from ristovskadespina/3-list-tasks-sorted-by-name
+| |\  
+| | * 2b7eea6 Implement sortTasksByName method
+| * |   d989693 Merge pull request #10 from ristovskadespina/1-remove-a-task-by-name
+| |\ \  
+| | |/  
+| |/|   
+| | * 2d094f1 Implement removeTask method
+| |/  
+* / 85cb882 Implement markTaskCompleted method
+|/  
+* 83f5be7 Add starter code
+* 5b01bb5 Initial commit
